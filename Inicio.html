@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTML> 
+  <HEAD> 
+    <TITLE>Mi portal</TITLE>
+    <STYLE>
+       table {width:100%; height:650px;}
+       .amarilla {background-color:yellow; height:20%; width:100%;}
+       .rosa {background-color:pink; width:20%;}
+       .violeta {background-color:violet;}
+       a, li {color:purple; font-size:40px;}
+    </STYLE> 
+  </HEAD>
+  <BODY> 
+    <TABLE>
+       <TR>
+          <TD COLSPAN="5" class=amarilla><img style="width:100%; height:60%" src="https://thumbs.dreamstime.com/t/cabecera-bandera-3589696.jpg"></TD>
+       </TR>
+       <TR>
+          <TD ROWSPAN="4" class=rosa valign="Top">
+            <UL>
+              <!-- Enlaces al iFrame -->
+              <LI><a href="https://www.elpais.com" target="imgbox">Inicio</A></LI>
+              <LI><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.8744231865307!2d-3.6809639849524856!3d40.43377947936311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228bf5e1be575%3A0xb62e01892f279f7c!2sCalle+de+Maldonado%2C+53%2C+28006+Madrid!5e0!3m2!1ses!2ses!4v1524657561213" target="imgbox">Localización</a><br /></LI>
+              <LI><a href="https://www.youtube.com/embed/M3q_iztQcu0" target="imgbox">Vídeo</a><br /></LI>
+              <LI><a href="http://www.ojodigital.com/foro/attachments/flora-y-fauna/148726d1320396744-chula-que-soy-yo-2-fotos-img_0438-800x600-.jpg" target="imgbox">Foto</a><br /></LI>
+            </UL>
+          </TD>
+          <TD ROWSPAN="4" COLSPAN="4" class=violeta>
+            <!-- Ejemplo de http://www.littlewebhut.com -->
+            <iframe frameborder="0" scrolling="yes" width="100%" height="100%"
+                    src="http://www.littlewebhut.com"
+                    name="imgbox" id="imgbox">
+            </iframe>
+            <!-- iFrames originales facilitados por los proveedores
+            <iframe id="superior" name="superior" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.8744231865307!2d-3.6809639849524856!3d40.43377947936311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228bf5e1be575%3A0xb62e01892f279f7c!2sCalle+de+Maldonado%2C+53%2C+28006+Madrid!5e0!3m2!1ses!2ses!4v1524657561213" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>No lo soporta</iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/M3q_iztQcu0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            -->
+          </TD>
+       </TR>
+    </TABLE>
+  </BODY>
+</HTML>
